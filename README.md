@@ -1,4 +1,6 @@
 # angularToCsv
+there's a running version on https://nasaphreak-nfc.web.app/
+
 PT-BR
 Existe um arquivo JSON com dados fictícios criado com https://www.mockaroo.com/ (Obrigado, vocês me salvaram muito tempo)
 
