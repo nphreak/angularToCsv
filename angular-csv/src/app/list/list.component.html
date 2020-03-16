@@ -1,0 +1,21 @@
+<button type="button" (click)="salvaCsv()">Salva como CSV</button>
+
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Gênero</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let registro of mockRegistros">
+            <td>{{registro.id}}</td>
+            <td>{{registro.first_name}}</td>
+            <td>{{registro.last_name}}</td>
+            <td>{{registro.gender}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
